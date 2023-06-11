@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/img/pexels-elti-meshau-333850.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.container h1{
+    font-family: 'Varela Round', sans-serif;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 13px;
+    padding: 13px 0;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 22px 5px;
+    border-bottom: 2px solid purple;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+}
+
+.box input{
+    flex: 1;
+    background: none;
+    margin: 12px 0;
+    padding: 5px 10px;
+    font-size: 23px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.sp{
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin:23px 0 ;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border-width: 0dvb;
+    border: 2px solid black;
+    font-size: 18px;
+    background: none;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    color: white;
+    background: rgb(87, 82, 82);
+}
